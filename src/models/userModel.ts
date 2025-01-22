@@ -1,7 +1,4 @@
-export const config = {
-    runtime: "nodejs",
-  };
-  
+
 import mongoose from "mongoose";
 const userSchema = new mongoose.Schema({
     name: {type: String, require: true},
